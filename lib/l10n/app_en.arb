@@ -1,0 +1,110 @@
+{
+    "language": "English",
+    "@language": {
+      "description": "The current language"
+    },
+    "home": "Home",
+    "@home": {
+      "description": "Home page"
+    },
+    "showByHour": "Show by hour",
+    "@showByHour": {
+      "description": "By hour"
+    },
+    "showByDay": "Show by day",
+    "@showByDay": {
+      "description": "By day"
+    },
+    "homePageOffline": "You are currently offline, please connect to the network and swipe down to refresh page",
+    "@homePageOffline": {
+      "description": "Home page offline"
+    },
+    "lastUpdate": "Last updated at ",
+    "@lastUpdate": {
+      "description": "Last update"
+    },
+    "currentWeather": "Current weather",
+    "@currentWeather": {
+      "description": "Current weather"
+    },
+    "city": "City: ",
+    "@city": {
+      "description": "City"
+    },
+    "weather": "Weather: ",
+    "@weather": {
+      "description": "Weather"
+    },
+    "temperature": "Temperature: ",
+    "@temperature": {
+      "description": "Temperature"
+    },
+    "feels_like": "Feels like: ",
+    "@feels_like": {
+      "description": "Feels like"
+    },
+    "today_average": "Today, Average: ",
+    "@today_average": {
+      "description": "Today, Average"
+    },
+    "tomorrow_average": "Tomorrow, Average: ",
+    "@tomorrow_average": {
+      "description": "Tomorrow, Average"
+    },
+    "average": "Average: ",
+    "@average": {
+      "description": "Average"
+    },
+    "humidity": "Humidity: ",
+    "@humidity": {
+      "description": "Humidity"
+    },
+    "morning": "Morning: ",
+    "@morning": {
+      "description": "Morning"
+    },
+    "day": "Day: ",
+    "@day": {
+      "description": "Day"
+    },
+    "evening": "Evening: ",
+    "@evening": {
+      "description": "Evening"
+    },
+    "night": "Night: ",
+    "@night": {
+      "description": "Night"
+    },
+    "today": "Today, ",
+    "@today": {
+      "description": "Today"
+    },
+    "tomorrow": "Tomorrow, ",
+    "@tomorrow": {
+      "description": "Tomorrow"
+    },
+    "clouds": "Clouds: ",
+    "@clouds": {
+      "description": "Clouds"
+    },
+    "dailyForecast": "Daily forecast for ",
+    "@dailyForecast": {
+      "description": "Daily forecast"
+    },
+    "days": "days",
+    "@days": {
+      "description": "Days"
+    },
+    "hourly_forecast": "Hourly forecast for 48 hours",
+    "@hourly_forecast": {
+      "description": "Hourly forecast"
+    },
+    "homeBlocOffline": "You are currently offline, and do not have any cached weather information, please connect to the network and swipe down to refresh the data",
+    "@homeBlocOffline": {
+      "description": "Home bloc offline text"
+    },
+    "couldnt_fetch": "Could not fetch data",
+    "@couldnt_fetch": {
+      "description": "Could not fetch"
+    }
+}
