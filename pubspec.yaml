@@ -50,6 +50,9 @@ dependencies:
   alice: ^0.2.5
   location: ^4.3.0
   shared_preferences: ^2.0.13
+  firebase_auth: ^3.3.14
+  google_sign_in: ^5.3.0
+  flutter_facebook_auth: ^4.3.0
 
 dev_dependencies:
   flutter_test:

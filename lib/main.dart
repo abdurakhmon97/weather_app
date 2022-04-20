@@ -22,6 +22,8 @@ import 'data/model/current_weather/weather_main_field.dart';
 import 'data/model/current_weather/weather_model.dart';
 import 'data/model/day_weather/day_weather.dart';
 
+import 'package:firebase_core/firebase_core.dart';
+
 
 //App uses three layers
 //data layer - we keep our networking layer, repos and models
@@ -31,6 +33,7 @@ import 'data/model/day_weather/day_weather.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   await setupLocator();

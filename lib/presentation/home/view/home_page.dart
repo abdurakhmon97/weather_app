@@ -91,6 +91,34 @@ class HomePage extends StatelessWidget {
             child: ListView(
               shrinkWrap: true,
               children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  width: double.infinity,
+                  child: ElevatedButton(onPressed: () async {
+                    await BlocProvider.of<HomePageBloc>(context).googleSignIn();
+                  }, child: Text("Test google sign in")),
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  width: double.infinity,
+                  child: ElevatedButton(onPressed: () async {
+                    await BlocProvider.of<HomePageBloc>(context).googleSignOut();
+                  }, child: Text("Test google sign out")),
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  width: double.infinity,
+                  child: ElevatedButton(onPressed: () async {
+                    await BlocProvider.of<HomePageBloc>(context).fbSignIn();
+                  }, child: Text("Test fb sign in")),
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  width: double.infinity,
+                  child: ElevatedButton(onPressed: () async {
+                    await BlocProvider.of<HomePageBloc>(context).fbSignOut();
+                  }, child: Text("Test fb sign out")),
+                ),
                 if (state.dateTime != null) ...[
                   const SizedBox(
                     height: 24,
